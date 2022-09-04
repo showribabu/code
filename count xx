@@ -1,0 +1,22 @@
+int countXX(String str) {
+  if(str.length()>=2)
+  {
+    int c=0;
+    for(int i=0;i<(str.length()-1);i++)
+    {
+      if(str.charAt(i)=='x' && str.charAt(i+1)=='x')
+      {
+        c=c+1;
+        
+      }
+      
+      
+    }
+    return c;
+    
+  }
+  else
+  {
+    return 0;
+  }
+}
